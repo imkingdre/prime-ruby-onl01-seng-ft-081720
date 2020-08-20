@@ -4,4 +4,12 @@ def prime?(x)
     elsif x < 1
     return false
   else
-    for y
+    for y in 2..(x-1)
+    if (x % y) == 0
+      return false 
+    end
+  end 
+end
+
+  true
+end
