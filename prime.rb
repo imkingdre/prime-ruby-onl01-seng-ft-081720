@@ -3,4 +3,5 @@ def prime?(x)
     return true
     elsif x < 1
     return false
+  else
     
